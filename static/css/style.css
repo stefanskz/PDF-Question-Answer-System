@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.upload-section, .qa-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#answer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    display: none;
+}
+
+.success-message {
+    color: #28a745;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    display: none;
+}
+
+.loading-spinner {
+    color: #007bff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+}
